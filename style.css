@@ -8,6 +8,7 @@
 
 .rect {
   margin: 16px;
+  margin-left: 0px;
   background-color: coral;
   opacity: 0.5;
   width: 100px;
