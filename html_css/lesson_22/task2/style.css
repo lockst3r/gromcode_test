@@ -4,21 +4,25 @@
 
 .navigator {
 background-color: #ff7f50;
-height: 200px;
+min-height: 200px;
 display: flex;
 flex-grow: 1;
+max-height: 300px;
 }
 
 .list {
 background-color: #006400;
-height: 200px;
+min-height: 200px;
 display: flex;
 flex-grow: 1;
+max-height: 300px;
 }
+
+
 
 .news{
 background-color: #0ff;
-height: 200px;
+min-height: 200px;
 display: flex;
 flex-grow: 1;
 }
@@ -41,7 +45,10 @@ margin: auto;
 }
 
 @media screen and (min-width: 900px){
+  .news, .list, .navigator{
+  width: 400px;
+  }
   .content{
-   display: flex;
+    display: flex;
   }
 }
