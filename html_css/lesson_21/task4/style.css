@@ -30,7 +30,6 @@ color: white;
 
 .main{
 display: flex;
-font-size: 1.25em;
 flex: 1 0 auto;
 }
 
@@ -44,6 +43,7 @@ width: 20%;
 
 .section{
 width: 60%;
+font-size: 1.25em;
 }
 
 .news{
@@ -96,6 +96,9 @@ text-align: center;
 }
 
 .footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #e5e5e5;
   padding: 0.5em;
   flex: 0 0 auto;
