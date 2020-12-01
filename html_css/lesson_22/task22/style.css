@@ -40,7 +40,9 @@ margin: auto;
 @media screen and (min-width: 600px){
    .conteiner{
     display: flex;
-    flex-grow: 2;
+   }
+   .navigator, .list{
+    width: 300px;
    }
 }
 
