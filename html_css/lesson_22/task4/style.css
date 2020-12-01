@@ -14,8 +14,8 @@ max-width: 100%;
 .header{
 display: flex;
 height: 3em;
-margin-right: 1em;
-margin-left: 1em;
+padding-right: 1em;
+padding-left: 1em;
 background-color: #eee;
 }
 
@@ -50,6 +50,7 @@ margin-bottom: 0.5em;
 }
 
 .nav-list-link{
+  margin: 0.5em;
   color: white;
   text-decoration: none;
   overflow: hidden;
