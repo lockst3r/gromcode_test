@@ -1,106 +1,76 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #555;
   font-size: 16px;
 }
-
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-/*------Header------*/
-.header {
-  text-align: center;
-  background-image: linear-gradient(60deg, red, orange);
-}
-
-h1 {
-  color: white;
-}
-
-/*---------MAIN-------*/
-
 .main {
   display: flex;
 }
-
-.navigation,
-.section,
-.news {
-  padding: 0.5em;
+.header {
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(60deg, red, orange);
 }
-
+footer {
+  margin-top: auto;
+  background-color: #e5e5e5;
+  padding: 0.5em;
+  text-align: center;
+}
 .navigation {
   width: 20%;
   padding: 0.5em;
 }
-
 .section {
   width: 60%;
   font-size: 1.25em;
   padding: 0.5em;
 }
-
 .news {
   width: 20%;
   padding: 0.5em;
 }
-
-/*-----Navigator-------*/
-
-.nav-list {
-  padding: 0;
-  list-style-type: none;
-}
-
-.nav-list-item {
-  line-height: 2em;
-  background-color: #808080;
-  color: white;
-  height: 2em;
-  margin-bottom: 0.5em;
-}
-
-.nav-list-link {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  display: block;
-  text-decoration: none;
-  color: white;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-/*========SECTION------*/
 .units-list {
   line-height: 1.75em;
 }
-
 .css-units {
-  background-color: #e5e5e5;
   color: #8b0000;
-  font-size: 1.125em;
+  background-color: #e5e5e5;
   font-weight: 700;
+  font-size: 1.125em;
 }
-
 .section__header {
   font-size: 5vw;
   text-align: center;
 }
-
-.footer {
-  padding: 0.5em;
-  text-align: center;
-  margin-top: auto;
-  background-color: #e5e5e5;
+.nav-list {
+  padding: 0;
+  list-style-type: none;
 }
-
+.nav-list-item {
+  background-color: #808080;
+  color: #fff;
+  height: 2em;
+  margin-bottom: 0.5em;
+  line-height: 2em;
+}
+.nav-list-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 0.5em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 img {
   max-width: 100%;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
@@ -120,7 +90,6 @@ img {
     width: 100%;
   }
 }
-
 @media screen and (max-width: 900px) and (min-width: 600px) {
   .navigation {
     width: 20%;
