@@ -32,9 +32,6 @@ border-radius: 4px;
 margin: auto;
 }
 
-.conteiner{
-display: flex;
-}
 
 @media screen and (min-width: 600px){
    .conteiner{
@@ -44,7 +41,7 @@ display: flex;
 }
 
 @media screen and (min-width: 900px){
-  body{
+  .content{
    display: flex;
   }
 }
