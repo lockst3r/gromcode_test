@@ -11,6 +11,17 @@ justify-content: center;
 height: 100vh;
 }
 
+.container {
+  @include laptop {
+    display: flex;
+  }
+  @include lap {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
 
 .square {
     width: 100px;

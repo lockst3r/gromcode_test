@@ -9,6 +9,18 @@ body {
   height: 100vh;
 }
 
+@media (orientation: landscape) {
+  .container {
+    display: flex;
+  }
+}
+@media (orientation: portrait) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .square {
   width: 100px;
   height: 100px;
